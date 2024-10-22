@@ -1,0 +1,52 @@
+.logo{
+    font-family: Oswald;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+.logo:hover, .logo:focus{
+    background-color: #27a3c6;
+    color: blueviolet;
+}
+
+.guns{
+    color: rgb(124, 23, 23)
+}
+.bullets{
+    color: black;
+}
+.and{
+    color:blue;
+}
+.navig{
+    font-family: Noto Serif Oriya;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
+    background-color: rgb(205, 205, 199);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+li{
+    list-style-type: none;
+}
+.spisok{
+    display: flex;
+   gap: 8px;
+   justify-content: space-evenly;
+}
+.silka:hover, .silka:focus{
+background-color: #27a3c6;
+color: blueviolet;
+}
+.silka{
+    color: darkgreen
+}
+body{
+    background-image: url(fon.jpg);
+    width: 100px;
+    height: 100px;
+}
